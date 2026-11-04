@@ -1,25 +1,61 @@
-# EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization
+# EX-02: Cross-Platform Prompting – Evaluating Diverse Techniques in AI-Powered Text Summarization
+## NAME : INFANCIA FELCY P
+## REG NO : 21223040067
+## 🎯 AIM
 
-## AIM
-To evaluate and compare the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini, Claude, Copilot) in a specific task: text summarization.
+To evaluate and compare different prompting techniques (Zero-Shot, Few-Shot, Chain-of-Thought, and Role-Based Prompting) across AI platforms such as ChatGPT, Gemini, Claude, and Copilot for summarizing technical articles effectively.
 
-## Scenario:
-You are part of a content curation team for an educational platform that delivers quick summaries of research papers to undergraduate students. Your task is to summarize a 500-word technical article on "The Basics of Blockchain Technology" using multiple AI platforms and prompting strategies.
+## ⚙️ ALGORITHM
 
-Your goal is to determine which combination of prompting technique + platform provides the best summary in terms of:
+**Step 1: Define the Task**
 
-Accuracy
+- Select a 500-word technical article on "The Basics of Blockchain Technology".
+- Define the target audience as undergraduate students.
+- Set evaluation criteria: Accuracy, Coherence, Simplicity, Speed, and User Experience.
 
-Coherence
+**Step 2: Select AI Platforms**
 
-Simplicity
+- Choose ChatGPT, Google Gemini, Claude, and Microsoft Copilot.
+- Use the same source article across all platforms.
 
-Speed
+**Step 3: Apply Prompting Techniques**
 
-User experience
+| Technique        | Description                                                                              |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| Zero-Shot        | Ask the AI to summarize without examples.                                                |
+| Few-Shot         | Provide sample summaries before requesting the output.                                   |
+| Chain-of-Thought | Ask the AI to organize the key concepts step by step before producing a concise summary. |
+| Role-Based       | Assign the AI the role of an educational content writer.                                 |
 
-## Algorithm
+**Step 4: Generate Summaries**
 
-## Result
+- Submit each prompt to all four AI platforms.
+- Generate summaries using the same source text.
+- Record the response time and outputs.
 
+**Step 5: Evaluate the Results**
+
+- Compare the generated summaries based on accuracy, coherence, simplicity, speed, and user experience.
+- Identify strengths and weaknesses of each technique.
+
+**Step 6: Compare and Identify the Best Approach**
+
+- Prepare a comparison table.
+- Identify the platform and prompting technique that provides the most effective summary for undergraduate students.
+
+## 📊 RESULT
+
+The experiment demonstrates that different prompting techniques influence the quality and clarity of AI-generated summaries. Zero-Shot Prompting provides quick results, Few-Shot Prompting improves consistency, Chain-of-Thought Prompting encourages structured reasoning, and Role-Based Prompting produces audience-focused summaries.
+
+The effectiveness of each technique varies across AI platforms. The best combination can be identified by comparing accuracy, coherence, simplicity, speed, and user experience.
+
+### Evaluation Table
+
+| Evaluation Criteria | Observation                          |
+| ------------------- | ------------------------------------ |
+| Accuracy            | Correctness of technical information |
+| Coherence           | Logical flow and readability         |
+| Simplicity          | Ease of understanding                |
+| Speed               | Time taken to generate the summary   |
+| User Experience     | Overall usefulness and presentation  |
 
